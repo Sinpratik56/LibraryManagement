@@ -42,6 +42,7 @@ const fetchUsers =
             setUsers(
                 res.data
             );
+            
 
         } catch (error) {
 

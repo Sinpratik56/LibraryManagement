@@ -16,15 +16,15 @@ const {
     "../controllers/authController"
 );
 
-router.post("/register",protect,authorize(["admin"]),registerUser);
+router.post("/register",protect,authorize("Admin"),registerUser);
 
 router.post("/login",loginUser);
 
-router.get("/users",protect,authorize(["admin"]),getUsers);
+router.get("/users",protect,authorize("Admin"),getUsers);
 
-router.delete("/users/:id",protect,authorize(["admin"]),deleteUser);
+router.delete("/users/:id",protect,authorize("Admin"),deleteUser);
 
-router.put("/change-password",protect,authorize(["admin"]),changePassword);
+router.put("/change-password",protect,authorize("Admin"),changePassword);
 
 router.get("/register",
     (req, res) => {
