@@ -191,10 +191,10 @@ Add screenshots of:
 
 * ![Login Page](image.png)
 * ![Admin Dashboard](image-1.png)
-* Student Dashboard
+* ![Student Dashboard](image-8.png)
 * ![Book Management](image-2.png)
 * ![Student Management](image-3.png)
-* User Management
+* ![User Management](image-7.png)
 * ![Issue Book](image-6.png)
 * ![Return Book](image-5.png)
 * ![Student History](image-4.png)
