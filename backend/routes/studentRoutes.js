@@ -19,7 +19,7 @@ const {
 );
 
 
-router.post("/",protect,authorize(["Admin"]),addStudent);
+router.post("/",protect,authorize("Admin"),addStudent);
 
 router.get("/",protect,getStudents);
 
