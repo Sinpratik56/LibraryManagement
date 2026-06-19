@@ -24,7 +24,7 @@ router.get("/users",protect,authorize("Admin"),getUsers);
 
 router.delete("/users/:id",protect,authorize("Admin"),deleteUser);
 
-router.put("/change-password",protect,authorize("Admin"),changePassword);
+router.put("/change-password",protect,changePassword);
 
 router.get("/register",
     (req, res) => {
