@@ -156,8 +156,6 @@ const getUsers = async (
     }
 };
 
-backend/controllers/authController.js
-
 const deleteUser = async (
     req,
     res
